@@ -1,0 +1,54 @@
+body > div:nth-child(1) > nav
+{
+    padding: 20px;
+}
+ul>li>a:hover, a:active
+  {
+    background-color: #FF8C00;
+    
+  }
+
+body > div.col
+{
+    text-align: center;
+    margin: 0px;
+    padding: 120px;
+    background-image: url("images/manta\ borbet.jpg");
+    background-size: 100%;
+}
+body > footer
+{
+    text-align: center;
+    background-color:#707070;
+    height: 100px;
+    padding-top: 40px;
+    margin-top: 100px;
+}
+body > div.container > div:nth-child(5) > div > div.col-md-4 > img
+{
+    padding: 30px;
+}
+body > footer > a:nth-child(3), body > footer > a:nth-child(4), body > footer > a:nth-child(5){
+    text-decoration: none;
+    color: #FF8C00;
+}
+
+
+
+
+@media only screen and (max-width: 600px)
+{
+    body > div.col
+    {
+      max-height: 550px;
+      padding: 0%;
+     
+    }
+    body > div.col > a > img
+    {
+        max-width: 50%;
+    }
+    body > header > nav{
+        height: auto;
+    }
+}

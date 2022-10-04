@@ -1,0 +1,108 @@
+body > div:nth-child(1) > nav
+{
+    padding: 20px;
+}
+ul>li>a:hover, a:active
+  {
+    background-color: #FF8C00;
+    
+  }
+
+body > div.col
+{
+    text-align: center;
+    margin: 0px;
+    padding: 120px;
+    background-image: url("images/manta\ borbet.jpg");
+    background-size: 100%;
+}
+footer
+{
+    text-align: center;
+    background-color:#707070;
+    height: 100px;
+    padding-top: 40px;
+    margin-top: 80px;
+}
+body > div.container > div.card > div.card
+{
+    padding: 20px;
+}
+
+body > footer > a:nth-child(3), body > footer > a:nth-child(4), body > footer > a:nth-child(5){
+    text-decoration: none;
+    color: #FF8C00;
+}
+
+
+
+@media only screen and (max-width: 600px)
+{
+    body > div.col
+    {
+      max-height: 550px;
+      padding: 0%;
+     
+    }
+    body > div.col > a > img
+    {
+        max-width: 50%;
+    }
+    body > header > nav{
+        height: auto;
+    }
+    
+    #slider{
+        width: 200px;
+        height: auto;
+        
+    
+      
+    }
+    
+    
+}
+
+
+
+
+#slider{
+    margin: 0 100px;
+    overflow: hidden;
+    height: 80vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@keyframes slider {
+   0%{
+       left:0;   
+   }
+   15%{
+       left: 0;
+   }
+   20%{
+       left: -105%;
+   }
+   40%{
+    left: -105%;
+   }
+   45%{
+       left: -200%;
+   }
+   70%{
+       left: -210%;
+   }
+  }
+#slider figure{
+    position: relative;
+    width: 800%;
+    height: 100%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img {
+    width: 13%;
+    float: left;
+    height: 100%;
+}
